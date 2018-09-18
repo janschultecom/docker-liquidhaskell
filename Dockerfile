@@ -11,7 +11,7 @@ RUN apt-get upgrade \
 #RUN useradd -r -m liquid
 #USER liquid
 
-VOLUME data
+VOLUME /data
 
 WORKDIR /data
 
