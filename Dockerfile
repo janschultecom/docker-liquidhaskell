@@ -1,4 +1,4 @@
-FROM haskell:8.2.2
+FROM haskell:8.4.3
 
 
 RUN apt-get upgrade \
